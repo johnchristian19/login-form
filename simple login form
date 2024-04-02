@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Muscle Man Sign-up form</title>
+</head>
+<body style="storage/emulated/0/Download/IMG_20240327_222820.jpg">
+<h2><div align="center">Signup Form</h2><hr></div>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/0G7zxY3/IMG-20240327-222820.jpg" alt="IMG-20240327-222820" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+<form action="/submit-your-form" method="post">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" required><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <input type="checkbox" id="terms" name="terms" required>
+  <label for="terms">I agree to the Terms and Conditions</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
